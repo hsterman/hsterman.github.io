@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  background-color: black;
+  background: url("http://www.wallpaperup.com/uploads/wallpapers/2013/06/11/101178/fa540e6b2adc4ba6666cfc2497ce8516.jpg");
+  background-size: 75%;
+}
+h1 {
+  color: crimson;
+  font-family: 'Metal Mania', cursive;
+  font-weight: 700;
+  font-size: 90px;
+}
+
+img {
+	display: inline;
+	
+}
+
+hr {
+  width: 100px;
+}
+
+p {
+  font-family: 'Metal Mania', cursive;
+  color: crimson;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
