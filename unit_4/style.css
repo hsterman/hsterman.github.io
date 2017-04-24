@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+  background-color: black;
+  background: url("http://www.wallpaperup.com/uploads/wallpapers/2013/06/11/101178/fa540e6b2adc4ba6666cfc2497ce8516.jpg");
+  background-size: 70%;
+}
+
+#name {
+	background-color: #000000;
+}
+
+h1 {
+  color: crimson;
+  font-family: 'Metal Mania', cursive;
+  font-weight: 700;
+  font-size: 80px;
+}
+
+img {
+	display: inline;
+	
+}
+
+hr {
+  width: 100px;
+}
+
+#text {
+	background-color: #000000;
+}
+
+h2 {
+  font-family: 'Metal Mania', cursive;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+h5 {
+	font-family: 'Metal Mania', cursive;
+	color: white;
+	font-size: 30px;
+	font-weight: 300;
+}
