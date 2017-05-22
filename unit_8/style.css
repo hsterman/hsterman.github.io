@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Metal+Mania');
+
+/* Simple or Modern CSS Reset */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: black;
+  z-index: 1;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .4;
+  z-index: -1;
+  background: url("http://www.wallpaperup.com/uploads/wallpapers/2013/06/11/101178/fa540e6b2adc4ba6666cfc2497ce8516.jpg");
+  background-size: 70%;
+}
+
+#name {
+  background-color: #000000;
+  width: 32%;
+  margin: 0 auto;
+  display: inline-block;
+  border: 1px solid red;
+  /*background: url('../images/cat.jpg')*/
+}
+
+h1 {
+  color: crimson;
+  font-family: 'Metal Mania', cursive;
+  font-weight: 700;
+  font-size: 80px;
+  text-align: center;
+}
+
+#text {
+  background-color: #000000;
+  width: 34%;
+  margin: 0 auto;
+  display: inline-block;
+  border: 1px solid red;
+}
+
+h2 {
+  font-family: 'Metal Mania', cursive;
+  color: crimson;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+a {
+  color: crimson;
+}
+
+#about {
+  font-family: 'Metal Mania', cursive;
+  color: crimson;
+  font-size: 30px;
+  width: 40%
+  margin: 0 auto;
+  display: inline-block;
+  border: 1px solid red;
+  font-weight: 300;
+}
+
+#photos {
+  font-family: 'Metal Mania', cursive;
+  color: crimson;
+  font-size: 30px;
+  width: 40%
+  margin: 0 auto;
+  display: inline-block;
+  border: 1px solid red;
+  font-weight: 300;
+}
+
+#contact {
+  font-family: 'Metal Mania', cursive;
+  color: crimson;
+  font-size: 30px;
+  width: 40%
+  margin: 0 auto;
+  display: inline-block;
+  border: 1px solid red;
+  font-weight: 300;
+}
+
+.cat {
+  width: 25%;
+  border: 2px solid red;
+}
+
+footer {
+  text-align: center;
+  padding: 1em 0;
+  clear: both;
+  font-family: 'Metal Mania', cursive;
+  color: crimson;
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 800px) {
+  nav {
+    float: none;
+    }
+  nav a {
+      margin: 0 1.6em .75em 0;
+
+   }
+  }
+  @media only screen and (max-width: 480px) {
+    nav {
+      display: block;
+      text-align: center;
+
+    }
+  }
